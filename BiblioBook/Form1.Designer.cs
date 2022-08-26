@@ -35,7 +35,6 @@ namespace BiblioBook
             this.grbReader = new System.Windows.Forms.GroupBox();
             this.txtKol = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.chkBook = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lstBooks = new System.Windows.Forms.ListBox();
             this.grbStatus = new System.Windows.Forms.GroupBox();
@@ -62,7 +61,6 @@ namespace BiblioBook
             // 
             this.grbReader.Controls.Add(this.txtKol);
             this.grbReader.Controls.Add(this.label3);
-            this.grbReader.Controls.Add(this.chkBook);
             this.grbReader.Controls.Add(this.label2);
             this.grbReader.Controls.Add(this.lstBooks);
             this.grbReader.Controls.Add(this.grbStatus);
@@ -91,17 +89,6 @@ namespace BiblioBook
             this.label3.Size = new System.Drawing.Size(108, 15);
             this.label3.TabIndex = 6;
             this.label3.Text = "Количество дней";
-            // 
-            // chkBook
-            // 
-            this.chkBook.AutoSize = true;
-            this.chkBook.Location = new System.Drawing.Point(26, 212);
-            this.chkBook.Name = "chkBook";
-            this.chkBook.Size = new System.Drawing.Size(109, 19);
-            this.chkBook.TabIndex = 5;
-            this.chkBook.Text = "Книги на руках";
-            this.chkBook.UseVisualStyleBackColor = true;
-            this.chkBook.Visible = false;
             // 
             // label2
             // 
@@ -295,7 +282,6 @@ namespace BiblioBook
         private GroupBox grbReader;
         private TextBox txtKol;
         private Label label3;
-        private CheckBox chkBook;
         private Label label2;
         private ListBox lstBooks;
         private GroupBox grbStatus;
